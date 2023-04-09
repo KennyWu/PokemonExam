@@ -1,306 +1,240 @@
 {
-    "result": [
-        {
-            "normal": {
-                "double_damage_from": [
-                    "fighting"
-                ],
-                "half_damage_from": [],
-                "no_damage_from": [
-                    "ghost"
-                ]
-            }
+    "result": {
+        "normal": {
+            "effective": [
+                "fighting"
+            ],
+            "neutral": [
+                "ghost"
+            ]
         },
-        {
-            "fighting": {
-                "double_damage_from": [
-                    "flying",
-                    "psychic",
-                    "fairy"
-                ],
-                "half_damage_from": [
-                    "rock",
-                    "bug",
-                    "dark"
-                ],
-                "no_damage_from": []
-            }
+        "fighting": {
+            "effective": [
+                "flying",
+                "psychic",
+                "fairy"
+            ],
+            "neutral": [
+                "rock",
+                "bug",
+                "dark"
+            ]
         },
-        {
-            "flying": {
-                "double_damage_from": [
-                    "rock",
-                    "electric",
-                    "ice"
-                ],
-                "half_damage_from": [
-                    "fighting",
-                    "bug",
-                    "grass"
-                ],
-                "no_damage_from": [
-                    "ground"
-                ]
-            }
+        "flying": {
+            "effective": [
+                "rock",
+                "electric",
+                "ice"
+            ],
+            "neutral": [
+                "fighting",
+                "bug",
+                "grass",
+                "ground"
+            ]
         },
-        {
-            "poison": {
-                "double_damage_from": [
-                    "ground",
-                    "psychic"
-                ],
-                "half_damage_from": [
-                    "fighting",
-                    "poison",
-                    "bug",
-                    "grass",
-                    "fairy"
-                ],
-                "no_damage_from": []
-            }
+        "poison": {
+            "effective": [
+                "ground",
+                "psychic"
+            ],
+            "neutral": [
+                "fighting",
+                "poison",
+                "bug",
+                "grass",
+                "fairy"
+            ]
         },
-        {
-            "ground": {
-                "double_damage_from": [
-                    "water",
-                    "grass",
-                    "ice"
-                ],
-                "half_damage_from": [
-                    "poison",
-                    "rock"
-                ],
-                "no_damage_from": [
-                    "electric"
-                ]
-            }
+        "ground": {
+            "effective": [
+                "water",
+                "grass",
+                "ice"
+            ],
+            "neutral": [
+                "poison",
+                "rock",
+                "electric"
+            ]
         },
-        {
-            "rock": {
-                "double_damage_from": [
-                    "fighting",
-                    "ground",
-                    "steel",
-                    "water",
-                    "grass"
-                ],
-                "half_damage_from": [
-                    "normal",
-                    "flying",
-                    "poison",
-                    "fire"
-                ],
-                "no_damage_from": []
-            }
+        "rock": {
+            "effective": [
+                "fighting",
+                "ground",
+                "steel",
+                "water",
+                "grass"
+            ],
+            "neutral": [
+                "normal",
+                "flying",
+                "poison",
+                "fire"
+            ]
         },
-        {
-            "bug": {
-                "double_damage_from": [
-                    "flying",
-                    "rock",
-                    "fire"
-                ],
-                "half_damage_from": [
-                    "fighting",
-                    "ground",
-                    "grass"
-                ],
-                "no_damage_from": []
-            }
+        "bug": {
+            "effective": [
+                "flying",
+                "rock",
+                "fire"
+            ],
+            "neutral": [
+                "fighting",
+                "ground",
+                "grass"
+            ]
         },
-        {
-            "ghost": {
-                "double_damage_from": [
-                    "ghost",
-                    "dark"
-                ],
-                "half_damage_from": [
-                    "poison",
-                    "bug"
-                ],
-                "no_damage_from": [
-                    "normal",
-                    "fighting"
-                ]
-            }
+        "ghost": {
+            "effective": [
+                "ghost",
+                "dark"
+            ],
+            "neutral": [
+                "poison",
+                "bug",
+                "normal",
+                "fighting"
+            ]
         },
-        {
-            "steel": {
-                "double_damage_from": [
-                    "fighting",
-                    "ground",
-                    "fire"
-                ],
-                "half_damage_from": [
-                    "normal",
-                    "flying",
-                    "rock",
-                    "bug",
-                    "steel",
-                    "grass",
-                    "psychic",
-                    "ice",
-                    "dragon",
-                    "fairy"
-                ],
-                "no_damage_from": [
-                    "poison"
-                ]
-            }
+        "steel": {
+            "effective": [
+                "fighting",
+                "ground",
+                "fire"
+            ],
+            "neutral": [
+                "normal",
+                "flying",
+                "rock",
+                "bug",
+                "steel",
+                "grass",
+                "psychic",
+                "ice",
+                "dragon",
+                "fairy",
+                "poison"
+            ]
         },
-        {
-            "fire": {
-                "double_damage_from": [
-                    "ground",
-                    "rock",
-                    "water"
-                ],
-                "half_damage_from": [
-                    "bug",
-                    "steel",
-                    "fire",
-                    "grass",
-                    "ice",
-                    "fairy"
-                ],
-                "no_damage_from": []
-            }
+        "fire": {
+            "effective": [
+                "ground",
+                "rock",
+                "water"
+            ],
+            "neutral": [
+                "bug",
+                "steel",
+                "fire",
+                "grass",
+                "ice",
+                "fairy"
+            ]
         },
-        {
-            "water": {
-                "double_damage_from": [
-                    "grass",
-                    "electric"
-                ],
-                "half_damage_from": [
-                    "steel",
-                    "fire",
-                    "water",
-                    "ice"
-                ],
-                "no_damage_from": []
-            }
+        "water": {
+            "effective": [
+                "grass",
+                "electric"
+            ],
+            "neutral": [
+                "steel",
+                "fire",
+                "water",
+                "ice"
+            ]
         },
-        {
-            "grass": {
-                "double_damage_from": [
-                    "flying",
-                    "poison",
-                    "bug",
-                    "fire",
-                    "ice"
-                ],
-                "half_damage_from": [
-                    "ground",
-                    "water",
-                    "grass",
-                    "electric"
-                ],
-                "no_damage_from": []
-            }
+        "grass": {
+            "effective": [
+                "flying",
+                "poison",
+                "bug",
+                "fire",
+                "ice"
+            ],
+            "neutral": [
+                "ground",
+                "water",
+                "grass",
+                "electric"
+            ]
         },
-        {
-            "electric": {
-                "double_damage_from": [
-                    "ground"
-                ],
-                "half_damage_from": [
-                    "flying",
-                    "steel",
-                    "electric"
-                ],
-                "no_damage_from": []
-            }
+        "electric": {
+            "effective": [
+                "ground"
+            ],
+            "neutral": [
+                "flying",
+                "steel",
+                "electric"
+            ]
         },
-        {
-            "psychic": {
-                "double_damage_from": [
-                    "bug",
-                    "ghost",
-                    "dark"
-                ],
-                "half_damage_from": [
-                    "fighting",
-                    "psychic"
-                ],
-                "no_damage_from": []
-            }
+        "psychic": {
+            "effective": [
+                "bug",
+                "ghost",
+                "dark"
+            ],
+            "neutral": [
+                "fighting",
+                "psychic"
+            ]
         },
-        {
-            "ice": {
-                "double_damage_from": [
-                    "fighting",
-                    "rock",
-                    "steel",
-                    "fire"
-                ],
-                "half_damage_from": [
-                    "ice"
-                ],
-                "no_damage_from": []
-            }
+        "ice": {
+            "effective": [
+                "fighting",
+                "rock",
+                "steel",
+                "fire"
+            ],
+            "neutral": [
+                "ice"
+            ]
         },
-        {
-            "dragon": {
-                "double_damage_from": [
-                    "ice",
-                    "dragon",
-                    "fairy"
-                ],
-                "half_damage_from": [
-                    "fire",
-                    "water",
-                    "grass",
-                    "electric"
-                ],
-                "no_damage_from": []
-            }
+        "dragon": {
+            "effective": [
+                "ice",
+                "dragon",
+                "fairy"
+            ],
+            "neutral": [
+                "fire",
+                "water",
+                "grass",
+                "electric"
+            ]
         },
-        {
-            "dark": {
-                "double_damage_from": [
-                    "fighting",
-                    "bug",
-                    "fairy"
-                ],
-                "half_damage_from": [
-                    "ghost",
-                    "dark"
-                ],
-                "no_damage_from": [
-                    "psychic"
-                ]
-            }
+        "dark": {
+            "effective": [
+                "fighting",
+                "bug",
+                "fairy"
+            ],
+            "neutral": [
+                "ghost",
+                "dark",
+                "psychic"
+            ]
         },
-        {
-            "fairy": {
-                "double_damage_from": [
-                    "poison",
-                    "steel"
-                ],
-                "half_damage_from": [
-                    "fighting",
-                    "bug",
-                    "dark"
-                ],
-                "no_damage_from": [
-                    "dragon"
-                ]
-            }
+        "fairy": {
+            "effective": [
+                "poison",
+                "steel"
+            ],
+            "neutral": [
+                "fighting",
+                "bug",
+                "dark",
+                "dragon"
+            ]
         },
-        {
-            "unknown": {
-                "double_damage_from": [],
-                "half_damage_from": [],
-                "no_damage_from": []
-            }
+        "unknown": {
+            "effective": [],
+            "neutral": []
         },
-        {
-            "shadow": {
-                "double_damage_from": [],
-                "half_damage_from": [],
-                "no_damage_from": []
-            }
+        "shadow": {
+            "effective": [],
+            "neutral": []
         }
-    ]
+    }
 }
